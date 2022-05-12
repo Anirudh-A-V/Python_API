@@ -1,5 +1,4 @@
 import requests
-import json
 
 response = requests.get('http://api.open-notify.org/astros.json')
 res = requests.get('http://api.open-notify.org/iss-now.json')
